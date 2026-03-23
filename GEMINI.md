@@ -19,3 +19,9 @@
   - Include the latest SHAs from both `origin/main` and `upstream` for auditability.
   - For each custom commit in `wjpei-dev`, record the SHA, title, and a concise summary.
   - Update the changelog file consistently with every merge commit.
+
+## Deployment Strategy
+- **Deployment Branches:** `wjpei-deploy` and `kiiru-deploy` are downstream branches to `wjpei-dev`.
+- **Sync Workflow:** `wjpei-dev` should be merged into these branches upon request.
+- **Environment Focus:** These branches track environment-specific `.env` changes.
+- **Post-Deploy:** When completing deploy works, remember to checkout back to `wjpei-dev`.
