@@ -19,6 +19,8 @@
   - Include the latest SHAs from both `origin/main` and `upstream` for auditability.
   - For each custom commit in `wjpei-dev`, record the SHA, title, and a concise summary.
   - Update the changelog file consistently with every merge commit.
+  - Create a tracking branch named `<TAG>-wjpei` (where TAG is the upstream tag name) at the commit where the `CHANGELOG-WJPEI.md` is updated.
+
 
 ## Deployment Workflow
 - **Deployment Branches:** `wjpei-deploy` and `kiiru-deploy` are specialized branches containing environment-specific changes (e.g., `.env` files).
