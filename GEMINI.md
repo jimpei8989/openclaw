@@ -12,7 +12,7 @@
 ## Workflow Strategy
 - **Development Branch:** `wjpei-dev` is the primary branch for custom changes.
 - **Sync Strategy:** Merge stable release tags from `upstream` into the development flow.
-- **Current Baseline:** Stable release `v2026.3.22`.
+- **Current Baseline:** Stable release `v2026.3.24`.
 - **Commit Convention:** All custom commits must start with the prefix `wjpei: ` (e.g., `wjpei: add custom tracking files`).
 - **Change Tracking:** Maintain `CHANGELOG-WJPEI.md` as part of the merge process. 
   - Record the `upstream` stable release tag being targeted.
