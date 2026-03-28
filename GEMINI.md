@@ -19,3 +19,12 @@
   - Include the latest SHAs from both `origin/main` and `upstream` for auditability.
   - For each custom commit in `wjpei-dev`, record the SHA, title, and a concise summary.
   - Update the changelog file consistently with every merge commit.
+
+## Deployment Workflow
+- **Deployment Branches:** `wjpei-deploy` and `kiiru-deploy` are specialized branches containing environment-specific changes (e.g., `.env` files).
+- **Base Branch:** Both deployment branches are based off `wjpei-dev`.
+- **Post-Merge Actions:** After `wjpei-dev` is updated (via merge from `upstream`), the following deployment steps are required upon user request:
+  - Rebase or merge `wjpei-dev` into `wjpei-deploy`.
+  - Rebase or merge `wjpei-dev` into `kiiru-deploy`.
+  - Ensure any environment-specific overrides in these branches are preserved.
+
