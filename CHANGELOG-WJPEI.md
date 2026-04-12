@@ -1,5 +1,18 @@
 # CHANGELOG-WJPEI
 
+## [v2026.4.11] - 2026-04-12
+
+### Sync Information
+- **Upstream Tag:** `v2026.4.11`
+- **Origin Main SHA:** `e7d11f6c33e223a0dd8a21cfe01076bd76cef87a`
+- **Upstream Main SHA:** `c9e12cbd32ee09e09a9eeb6cf0ed5ace4f89e867`
+
+### Custom Commits
+- **01e6974a98** - `wjpei: document tag tracking branch requirement`
+  - Updates `GEMINI.md` to specify the creation of `<TAG>-wjpei` tracking branches.
+- **cb194b665a** - `wjpei: document deployment workflow in GEMINI.md`
+  - Adds the deployment workflow for `wjpei-deploy` and `kiiru-deploy` branches.
+
 ## [v2026.3.24] - 2026-03-28
 
 ### Sync Information
